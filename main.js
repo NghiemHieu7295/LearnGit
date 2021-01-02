@@ -29,7 +29,7 @@ function Person(first, last, age, gender, interests) {
 		alert(this.name.first + ' ' + this.name.last + ' is ' + this.age + ' years old. ' + pronoun + ' likes ' + interestsString + '.');
 	};
 	this.greeting = function() {
-		alert('Hi! I\'m ' + this.name.first + '.');
+		alert('Hii! I\'m ' + this.name.first + '.');
 	};
 }
 
